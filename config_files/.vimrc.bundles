@@ -1,0 +1,74 @@
+set nocompatible        " Must be first line
+set background=dark     " Assume a dark background
+
+" The next three lines ensure that the ~/.vim/bundle/ system works
+filetype off
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+" Bundles {
+
+" Vim Bundles manager
+Bundle 'gmarik/vundle'
+
+" Vim color theme
+Bundle 'tomasr/molokai'
+
+" Nerdtree, file explorer
+Bundle 'scrooloose/nerdtree'
+
+" Comment Uncomment lines
+Bundle 'tpope/vim-commentary'
+
+" Vim surround, try cs'" 
+Bundle 'tpope/vim-surround'
+
+" Ctrlp file/buffer finder
+Bundle 'kien/ctrlp.vim'
+
+" Vim multiple cursors with C-n
+Bundle 'terryma/vim-multiple-cursors'
+
+" Powerful vim command bar
+Bundle 'bling/vim-airline'
+Bundle 'vim-airline/vim-airline-themes'
+
+" Undo tree
+Bundle 'mbbill/undotree'
+
+" indent colored lines
+Bundle 'nathanaelkane/vim-indent-guides'
+
+" Marks added / removed lines
+Bundle 'mhinz/vim-signify'
+
+" Syntax check in vim
+Bundle 'scrooloose/syntastic'
+Bundle 'myint/syntastic-extras'
+
+" Vim git plugin
+Bundle 'tpope/vim-fugitive'
+
+" Tabular makes align tab by regex
+Bundle 'godlygeek/tabular'
+
+" Easy motion <leader><leader>motion :)
+Bundle 'Lokaltog/vim-easymotion'
+
+" Snippets and autocomplete
+Bundle 'SirVer/ultisnips'
+Bundle 'honza/vim-snippets'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'ervandew/supertab'
+
+" Code searching tool
+Bundle 'mileszs/ack.vim'
+
+" Tmux - vim integration
+Bundle 'christoomey/vim-tmux-navigator'
+
+" Universal config for editors
+Bundle 'editorconfig/editorconfig-vim'
+
+" EasyClip for easy clipboard manage
+Bundle 'tpope/vim-repeat'
+Bundle 'svermeulen/vim-easyclip'

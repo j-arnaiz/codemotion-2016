@@ -1,0 +1,1 @@
+command="/usr/bin/tmux attach -t pair" public_key pair@host.com
