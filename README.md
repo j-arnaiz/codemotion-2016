@@ -9,8 +9,8 @@ sudo apt-get install tmux tmuxinator
 ```
 
 ### For other SO check:
-- [https://tmux.github.io/](Tmux)
-- [https://github.com/tmuxinator/tmuxinator](Tmuxinator)
+- [Tmux](https://tmux.github.io/)
+- [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 
 
 
@@ -58,13 +58,13 @@ sudo apt-get install vim-gtk
 ```
 
 It is also recommended to use powerline fonts see
-[https://github.com/powerline/fonts](PowerLine Fonts) for installation.
+[PowerLine Fonts](https://github.com/powerline/fonts) for installation.
 
 ### Vim For other OS
 
 Check this pages for instructions:
-- [http://www.vim.org/](Vim)
-- [https://github.com/powerline/fonts](PowerLine Fonts) for installation.
+- [Vim](http://www.vim.org/)
+- [PowerLine Fonts](https://github.com/powerline/fonts) for installation.
 
 ### Setting vim config
 
@@ -95,7 +95,7 @@ sudo apt-get install silversearcher-ag
 ```
 
 On other OS check:
-- [https://github.com/ggreer/the_silver_searcher](SilverSearcher Ag)
+- [SilverSearcher Ag](https://github.com/ggreer/the_silver_searcher)
 
 
 ### YouCompleteMe (YCM)
@@ -108,7 +108,7 @@ sudo apt-get install build-essential cmake python-dev python3-dev
 ```
 
 On other OS check:
-- [https://github.com/Valloric/YouCompleteMe](YouCompleteMe)
+- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 
 
 #### Compiling
@@ -126,7 +126,7 @@ To use syntastic with ruby as seen on the slide shows
 just make sure you have ruby ~2.3.0 and rubocop in your path
 I recommend to use rbenv to install ruby:
 
-- [https://github.com/rbenv/rbenv#installation](rbenv)
+- [rbenv](https://github.com/rbenv/rbenv#installation)
 
 when you have installed ruby just
 ```
