@@ -214,6 +214,12 @@ command! -bang Qa qa<bang>
   nmap <Leader>p <plug>EasyClipSwapPasteBackwards
 " }
 
+" Ack {
+  if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+  endif
+" }
+
 " Init directories {
   function! InitializeDirectories()
     let parent = $HOME
