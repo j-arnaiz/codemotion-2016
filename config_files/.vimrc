@@ -203,13 +203,13 @@ command! -bang Qa qa<bang>
 " }
 
 " EasyClip {
+  " To set a mark use gm instead of m
+  nnoremap gm m
+  " m will be used for move
   let g:EasyClipUseSubstituteDefaults = 1
-  let g:EasyClipUseCutDefaults = 0
+  let g:EasyClipUseCutDefaults = 1
   let g:EasyClipUsePasteToggleDefaults = 0
 
-  nmap x <Plug>MoveMotionPlug
-  xmap x <Plug>MoveMotionXPlug
-  nmap xx <Plug>MoveMotionLinePlug
   nmap <Leader>n <plug>EasyClipSwapPasteForward
   nmap <Leader>p <plug>EasyClipSwapPasteBackwards
 " }
